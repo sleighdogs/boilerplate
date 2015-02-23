@@ -1,0 +1,38 @@
+//	WordPress Header (optional)
+//	Theme name and variables need to be changed according to the project
+//	@import "wordpress-header";
+
+
+/*====================================
+ *	IMPORT BASE
+ *===================================*/
+
+@import "vars";
+@import "inuit.css/inuit";
+$space: $base-spacing-unit; //shortened notation
+
+
+
+/*====================================
+ *	ADD MIXINS
+ *	(optional) 
+ *===================================*/
+
+@import "bourbon/bourbon";
+@import "globals/mixins";
+
+
+
+/*==================================
+ *	IMPORT PARTIAL CUSTOM STYLES
+ *	(+ fonts, mixins)
+ *=================================*/
+
+// globals
+@import "globals/fontface";
+@import "globals/typography";
+@import "globals/layout";
+
+// partials
+@import "partials/header";
+@import "partials/footer";
